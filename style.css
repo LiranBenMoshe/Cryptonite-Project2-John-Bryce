@@ -1,0 +1,118 @@
+body {
+    position: relative;
+    background: url(assets/Images/Body\ Background.webp)fixed
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-size: 40px;
+}
+
+.navbar-brand:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #000000;
+}
+
+section {
+    display: none;
+}
+
+#homeSection {
+    display: block;
+}
+
+.card {
+    margin: 5px;
+    display: inline-block;
+}
+
+#coinsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#aboutSection {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#aboutDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#aboutDiv img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 50% 10%;
+    /* Adjust the position to show the upper part of the image */
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+#aboutDiv h1 {
+    font-size: 28px;
+    /* Adjust the font size */
+    margin-bottom: 10px;
+    /* Add some space below the heading */
+}
+
+#aboutSection p {
+    background-color: white;
+    padding: 15px;
+    /* Add padding for better readability */
+    border-radius: 8px;
+    /* Rounded corners for the background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow */
+}
+
+#aboutDiv h1 {
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 36px;
+    /* Increase font size for a prominent headline */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    /* Adjust text color */
+}
+
+.favicon {
+    background-color: transparent;
+}
+
+#reportsSection h3 {
+    display: none;
+    color: black;
+    background-color: white;
+    text-align: center;
+}

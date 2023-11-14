@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptonite - Liran Ben Moshe</title>
+    <link rel="icon" href="assets/images/bitcoinFavicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.7.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script src="https://cdn.canvasjs.com/jquery.canvasjs.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+        <div class="container">
+            <a class="navbar-brand" href="#">Cryptonite</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a id="homeLink" class="nav-link active" data-section="homeSection">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="reportsLink" class="nav-link" data-section="reportsSection">Live Reports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="aboutLink" class="nav-link" data-section="aboutSection">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input id="searchInput" class="form-control me-2" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button id="searchButton" class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section id="homeSection" class="py-4">
+        <div class="container">
+            <h1 class="headline">Currencies</h1>
+            <div id="coinsContainer"></div>
+        </div>
+    </section>
+    
+    <section id="reportsSection" class="py-4">
+        <div class="container" id="container">
+            <div class="headline"><h1>Reports</h1></div>
+            <h3 id="errorMessage">There are no coins to display</h3>
+            <div id="chartContainer" style="height: 400px;"></div>
+        </div>
+    </section>
+
+    <section id="aboutSection" class="py-4">
+        <div class="container" id="aboutDiv">
+                <div>
+                    <h1 class="headline">Liran Ben Moshe</h1>
+                    <img src="assets/Images/Me.jpg">
+                </div>
+                    <div class="aboutText">
+                        <div>
+                            <p>
+                                "Cryptonite" is my second project as a FullStack Web developer at "John Bryce Academy". <br>
+                                This project displays up-to-date information about cryptocurrencies. <br>
+                                Here you can choose and track your favorite cryptocurrencies in real-time with charts.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
