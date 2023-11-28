@@ -17,3 +17,5 @@ Cryptonite is a web application that provides real-time information about crypto
 - CanvasJS for interactive charts
 
 **Note:** Before using the project, make sure to download `jquery-3.7.0.js` from [jQuery's official website](https://jquery.com/download/) and place it in the root directory of the project.
+
+This project is licensed under the GNU General Public License v3.0.
